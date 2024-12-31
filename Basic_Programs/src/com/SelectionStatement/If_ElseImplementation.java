@@ -1,6 +1,7 @@
 package com.SelectionStatement;
 
 //Write a java program to implement if-else block in java.
+//this is a program to check whether a number is even or odd.
 import java.util.Scanner;
 
 public class If_ElseImplementation {
