@@ -14,7 +14,7 @@ public class LogicalOp {
 		
 		//Not operator
 		int k = 0;
-		System.out.println(!(k==0));
+		System.out.println(!(k==0));//false
 	}
 
 }
