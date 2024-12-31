@@ -1,4 +1,4 @@
-package com.basic_progms;
+package com.operators;
 
 public class ArithmaticOp {
 	public static void main(String[] args) {
