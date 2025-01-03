@@ -2,6 +2,7 @@ package com.Loops;
 
 import java.util.Scanner;
 
+//to print a table of any number given by the user.
 public class TableOfANumber {
 
 	public static void main(String[] args) {
