@@ -15,7 +15,8 @@ public class PrimeNumber {
 		}
 		else {
 			boolean flag = true;//reference variable to identify the prime no
-			for(int i = 2; i<= num/2; i++) {
+			for(int i = 2; i<= num/2; i++) //we can achieve this condition, in a number's half.
+			{
 				if(num%i == 0) {
 					flag = false;
 					break;
