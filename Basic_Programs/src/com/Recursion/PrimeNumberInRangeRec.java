@@ -16,7 +16,6 @@ public class PrimeNumberInRangeRec {
 		if(start > end) return;
 		if(isPrime(start, start/2))
 			System.out.print(start+" ");
-		
 		range(start+1, end);
 	}
 	
