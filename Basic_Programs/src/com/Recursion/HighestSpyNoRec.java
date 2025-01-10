@@ -10,7 +10,7 @@ public class HighestSpyNoRec {
 		System.out.println("Enter last range: ");
 		int end = sc.nextInt();
 		
-		System.out.println("Spy numbers in between "+first+" and "+end+" are:");
+		System.out.println("Highest Spy number in between "+first+" and "+end+" are:");
 		for(int i=end; i>=first; i--) {
 			if(isSpy(i,0,1)) {
 				System.out.println(i);
