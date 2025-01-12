@@ -9,6 +9,8 @@ public class AutomorphicNoInRangeRec {
 		int first = sc.nextInt();
 		System.out.println("Enter last number: ");
 		int last = sc.nextInt();
+		
+		System.out.print("Automorphic Numbers between "+first+" and "+last+" are: ");
 		for(int i=first; i<= last; i++) {
 			if(isAutomorphic(i)) {
 				System.out.println(i+" ");
