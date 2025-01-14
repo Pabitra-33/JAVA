@@ -13,6 +13,7 @@ public class HollowSquarePattern {
 		for(int i=1; i<=lines; i++) {
 			//for the columns
 			for(int j=1; j<=lines; j++) {
+				//conditions for where to print * and where to print ""
 				if(i==1 || j==1 || i==lines || j==lines) {
 					System.out.print("*");
 				}
