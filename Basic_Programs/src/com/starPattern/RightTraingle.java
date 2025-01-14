@@ -14,7 +14,7 @@ public class RightTraingle {
 		{
 			//inner loop to print the no of column data
 			for(int j=1; j<=i; j++) {
-				System.out.print(" * ");
+				System.out.print("*");
 			}
 			System.out.println();
 		}
