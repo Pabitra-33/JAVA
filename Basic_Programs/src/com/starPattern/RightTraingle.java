@@ -16,6 +16,7 @@ public class RightTraingle {
 			for(int j=1; j<=i; j++) {
 				System.out.print("*");
 			}
+			//adds a new line
 			System.out.println();
 		}
 	}
