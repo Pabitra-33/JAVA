@@ -1,4 +1,4 @@
-package com.SelectionStatement;
+package com.selectionStatement;
 
 import java.util.Scanner;
 
