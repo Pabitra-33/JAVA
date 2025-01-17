@@ -1,23 +1,25 @@
 package com.numberPattern;
 
+import java.util.Scanner;
+
 public class Pattern1 {
 
 	public static void main(String[] args) {
-		int i, j,number, n;   
+		System.out.println("Enter a number: ");
+		int n = new Scanner(System.in).nextInt();   
 		
-		for(i=0; i<7; i++)  
+		for(int i=0; i<n; i++)  
 		{   
-			number=1;   
+			int number=1;   
 			//loop for columns  
-			for(j=0; j<=i; j++)  
+			for(int j=0; j<=i; j++)  
 		    {   
 		       //prints num  
 		       System.out.print(number+ " ");  
+			   //incrementing the value of number   
+			   number++;
 		    }
-			//incrementing the value of number   
-			number++;   
-			}   
-		//throws the cursor at the next line after printing each row  
-		System.out.println();   
-		}
+			System.out.println();  //throws the cursor at the next line after printing each row
+		}     
 	}
+}
