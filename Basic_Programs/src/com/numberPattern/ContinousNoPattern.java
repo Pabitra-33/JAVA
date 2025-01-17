@@ -12,6 +12,7 @@ public class ContinousNoPattern {
 				}
 			}
 			else {
+				//for even lines
 				for(int j=n; j>=1; j--) {
 					System.out.print(j+" ");
 				}
