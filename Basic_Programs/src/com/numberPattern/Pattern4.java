@@ -16,6 +16,7 @@ public class Pattern4 {
 					x++;
 				}
 			}
+			//for even lines
 			else {
 				y = x+(i-1);
 				x = y+1;
