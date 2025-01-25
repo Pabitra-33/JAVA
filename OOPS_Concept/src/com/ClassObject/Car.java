@@ -1,4 +1,4 @@
-package com.Objects;
+package com.ClassObject;
 
 public class Car {
     // Attributes
