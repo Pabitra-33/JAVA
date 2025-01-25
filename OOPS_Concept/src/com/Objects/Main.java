@@ -1,7 +1,7 @@
 package com.Objects;
 
 class Lamp {
-	  // stores the value for light
+	  // lamp class to stores the value for light
 	  // true if light is on
 	  // false if light is off
 	  boolean isOn;
