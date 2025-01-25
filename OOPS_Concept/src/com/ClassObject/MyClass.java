@@ -1,4 +1,4 @@
-package com.Classes;
+package com.ClassObject;
 
 //created my class
 public class MyClass 
