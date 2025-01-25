@@ -1,4 +1,4 @@
-package com.Objects;
+package com.ClassObject;
 
 class Lamp {
 	  // lamp class to stores the value for light
