@@ -1,4 +1,4 @@
-package com.MultiLineInitializer;
+package com.blocks.MultiLineInitializer;
 
 public class StaticBlock {
 
