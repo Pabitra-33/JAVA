@@ -1,21 +1,22 @@
 package com.Constructor;
 
+//mobile class
 public class Mobile {
 	String name;
 	String color;
 	int ram;
 	int rom;
 	
-	//constructor using one field name
+	//constructor using one field
 	public Mobile(String name) {
 		this.name = name;
 	}
-	//constructor using two field name
+	//constructor using two field
 	public Mobile(String name, String color) {
 		this.name = name;
 		this.color = color;
 	}
-	//constructor using three field name
+	//constructor using three field
 	public Mobile(String name, String color, int ram) {
 		this.name = name;
 		this.color = color;
