@@ -7,9 +7,8 @@ public class Car {
 	int carNo;
 	double price;
 	
-	//default constructor
-	public Car() 
-	{
+	//no-arg constructor
+	public Car() {
 		
 	}
 	//parameterized constructor
