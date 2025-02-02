@@ -1,5 +1,7 @@
 package com.FactoryMethod;
 
+import java.util.Scanner;
+
 public class Vehicle {
 	String name;
 	int vNo;
@@ -12,8 +14,13 @@ public class Vehicle {
 	
 	//factory method
 	public static Vehicle getInstance() {
-		Vehicle v = new Vehicle("Truck", 1003);
-		return v;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter vehicle name: ");
+		String vName = sc.next();
+		System.out.println("Enter vehicle number: ");
+		int vNum = sc.nextInt();
+		return new Vehicle(vName, vNum);
+		
 	}
 	
 	//main method
@@ -22,8 +29,8 @@ public class Vehicle {
 		Vehicle v2 = getInstance();
 		Vehicle v3 = getInstance();
 		
-		System.out.println(v1.name);
-		System.out.println(v2.vNo);
-		System.out.println(v3.name);
+		System.out.println(v1.name+"\n"+v1.vNo+"\n");
+		System.out.println(v2.name+"\n"+v1.vNo+"\n");
+		System.out.println(v3.name+"\n"+v1.vNo);
 	}
 }
