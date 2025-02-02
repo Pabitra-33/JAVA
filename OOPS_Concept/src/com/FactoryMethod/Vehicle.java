@@ -10,4 +10,14 @@ public class Vehicle {
 		this.vNo = vNo;
 	}
 	
+	//factory method
+	public static Vehicle getInstance() {
+		Vehicle v = new Vehicle("Truck", 1003);
+		return v;
+	}
+	
+	//main method
+	public static void main(String[] args) {
+		
+	}
 }
