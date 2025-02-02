@@ -18,6 +18,12 @@ public class Vehicle {
 	
 	//main method
 	public static void main(String[] args) {
+		Vehicle v1 = getInstance();
+		Vehicle v2 = getInstance();
+		Vehicle v3 = getInstance();
 		
+		System.out.println(v1.name);
+		System.out.println(v2.vNo);
+		System.out.println(v3.name);
 	}
 }
