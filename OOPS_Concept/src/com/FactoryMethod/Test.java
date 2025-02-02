@@ -13,5 +13,8 @@ public class Test {
 		Test t1 = m1();
 		Test t2 = m1();
 		
+		//printing references
+		System.out.println(t1);//o/p: com.FactoryMethod.Test@5ca881b5
+		System.out.println(t2);//o/p: com.FactoryMethod.Test@24d46ca6
 	}
 }
