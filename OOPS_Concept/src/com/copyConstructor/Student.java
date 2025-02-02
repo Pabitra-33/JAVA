@@ -32,7 +32,12 @@ public class Student {
 	public static void main(String[] args) {
 		Student s1 = new Student("Ram", 27, 887652196l);
 		Student s2 = new Student("Sruti", 24, 975236159l);
-		Student s3 = new Student(s2);//copy constructor
+		Student s3 = new Student(s1);//copy constructor
 		
+		s1.display();
+		System.out.println("============");
+		s2.display();
+		System.out.println("============");
+		s3.display();
 	}
 }
