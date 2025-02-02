@@ -28,4 +28,9 @@ public class Book {
 		
 		return new Book(name, author, price);
 	}
+	
+	//display method
+	public void display() {
+		System.out.println(name+"\n"+author+"\n"+price);
+	}
 }
