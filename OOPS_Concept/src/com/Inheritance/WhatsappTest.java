@@ -26,6 +26,22 @@ class WhatsappVersion_3 extends WhatsappVersion_2 {
 
 public class WhatsappTest {
 	public static void main(String[] args) {
+		WhatsappVersion_1 w1 = new WhatsappVersion_1();
+		w1.textMsg();
+		//w1.audioMsg();//child specific props we can't access using parent reference
 		
+		System.out.println("========================");
+		
+		WhatsappVersion_2 w2 = new WhatsappVersion_2();
+		w2.textMsg();
+		w2.audioMsg();
+		//w2.videoMsg();//CTE
+		
+		System.out.println("========================");
+		
+		WhatsappVersion_3 w3 = new WhatsappVersion_3();
+		w3.textMsg();
+		w3.audioMsg();
+		w3.videoCall();
 	}
 }
