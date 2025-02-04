@@ -16,17 +16,19 @@ public class Book {
 	
 	//factory method
 	public static Book createBook() {
-		Scanner scn = new Scanner(System.in);
-		System.out.println("Enter book name:");
-		String name = scn.next();
-		
-		System.out.println("Enter book author:");
-		String author = scn.next();
-		
-		System.out.println("Enter book price:");
-		double price = scn.nextDouble();
-		
-		return new Book(name, author, price);
+		//surrounding try-with resources for implicitly close the scanner class connection.
+		try (Scanner scn = new Scanner(System.in)) {
+			System.out.println("Enter book name:");
+			String name = scn.next();
+			
+			System.out.println("Enter book author:");
+			String author = scn.next();
+			
+			System.out.println("Enter book price:");
+			double price = scn.nextDouble();
+			
+			return new Book(name, author, price);
+		}
 	}
 	
 	//display method
