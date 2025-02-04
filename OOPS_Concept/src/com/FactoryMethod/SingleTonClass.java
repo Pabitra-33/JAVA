@@ -24,6 +24,16 @@ class A
 
 public class SingleTonClass {
 	public static void main(String[] args) {
+		A a1 = A.getInstance();
+		A a2 = A.getInstance();
+		A a3 = A.getInstance();
 		
+		System.out.println(a1);//com.FactoryMethod.A@24d46ca6
+		System.out.println(a2);//com.FactoryMethod.A@24d46ca6
+		System.out.println(a3);//com.FactoryMethod.A@24d46ca6
+		
+		a1.i -= 10; //60-10 = 50
+		System.out.println(a1.i);//50
+		System.out.println(a2.i);//50
 	}
 }
