@@ -10,8 +10,24 @@ public class BookMovieHall {
 		
 	}
 	
-	//bookTicket
+	//bookTicket method
 	public void bookTicket(int n) {
-		
+		if(n <= seats) {
+			seats -= n;
+			System.out.println(n+" seats are Booked.");
+		}else {
+			System.out.println(n+" Tickets are not Booked!");
+		}
+		System.out.println(seats+" seats are Available.");
+	}
+	
+	//factory method to create only one instance
+	public static BookMovieHall getInstance() {
+		if(bookmoviehall == null) {
+			bookmoviehall = new BookMovieHall();
+			return bookmoviehall;
+		}else {
+			return bookmoviehall;
+		}
 	}
 }
