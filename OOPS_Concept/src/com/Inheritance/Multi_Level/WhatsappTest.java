@@ -1,4 +1,4 @@
-package com.Inheritance;
+package com.Inheritance.Multi_Level;
 
 //version-1
 class WhatsappVersion_1 {
