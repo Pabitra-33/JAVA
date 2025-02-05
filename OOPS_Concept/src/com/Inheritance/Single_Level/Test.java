@@ -1,4 +1,4 @@
-package com.Inheritance;
+package com.Inheritance.Single_Level;
 
 //created A class
 class A{
