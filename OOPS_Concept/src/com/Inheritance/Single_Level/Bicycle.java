@@ -11,12 +11,13 @@ public class Bicycle {
 	}
 	//display method
 	public void display() {
-		System.out.println("Gear :"+gear+"Speed: "+speed);
+		System.out.println("Gear: "+gear+"\nSpeed: "+speed);
 	}
 }
 class MountainBicycle extends Bicycle {
 	//MountainBicycle constructor
 	public MountainBicycle(int gear, int speed) {
 		super(gear, speed);
+		display();
 	}
 }
