@@ -9,6 +9,10 @@ public class Bicycle {
 		this.gear = gear;
 		this.speed = speed;
 	}
+	//display method
+	public void display() {
+		System.out.println("Gear :"+gear+"Speed: "+speed);
+	}
 }
 class MountainBicycle extends Bicycle {
 	//MountainBicycle constructor
