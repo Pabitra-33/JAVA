@@ -41,6 +41,7 @@ public class PrintDaysOfWeek {
 		default:
 			System.out.println("Invalid input");
 		}
+		scn.close();
 	}
 
 }

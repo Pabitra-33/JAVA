@@ -19,6 +19,7 @@ public class EvenOdd {
 		else {
 			System.out.println(number+" is a Odd Number");
 		}
+		sc.close();
 	}
 
 }

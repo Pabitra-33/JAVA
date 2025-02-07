@@ -43,6 +43,7 @@ public class MonthDaysCount {
 		default:
 			System.out.println("Invalid Input");
 		}
+		sc.close();
 	}
 
 }

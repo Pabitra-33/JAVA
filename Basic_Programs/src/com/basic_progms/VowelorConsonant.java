@@ -43,7 +43,8 @@ public class VowelorConsonant {
 	            break;  
 	        default:   
 	            System.out.println(ch+" is a Consonant");  
-	    }  
+	    }
+	    s.close();
 	}
 
 }

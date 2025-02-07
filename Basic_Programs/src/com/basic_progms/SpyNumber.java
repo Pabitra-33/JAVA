@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class SpyNumber {
 	public static void main(String[] args) {
 		System.out.println("Enter a number: ");
-		int n = new Scanner(System.in).nextInt();
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
 		
 		if(isSpy(n)) {
 			System.out.println(n+" is a Spy Number");
@@ -13,6 +14,7 @@ public class SpyNumber {
 		else {
 			System.out.println(n+" is not a Spy Number");
 		}
+		sc.close();
 	}
 
 	private static boolean isSpy(int n) {
