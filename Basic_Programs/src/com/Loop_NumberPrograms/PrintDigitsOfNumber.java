@@ -14,6 +14,6 @@ public class PrintDigitsOfNumber {
 			System.out.println(num%10+" ");
 			num /= 10;
 		}
+		sc.close();
 	}
-
 }

@@ -18,6 +18,7 @@ public class LastThreePrimeNoInRange {
 				if(count == 3) break;
 			}
 		}
+		sc.close();
 	}
 	
 	//prime no check

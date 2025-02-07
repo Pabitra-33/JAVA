@@ -16,6 +16,7 @@ public class PrimeNumberInRange {
 				System.out.println(i);
 			}
 		}
+		sc.close();
 	}
 	
 	public static boolean isPrime(int n)
