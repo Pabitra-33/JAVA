@@ -27,5 +27,6 @@ public class DecimalToBinary {
 			bin += rem;
 		}
 		System.out.println("Binary representation of "+n+" is: "+bin);
+		sc.close();
 	}
 }
