@@ -17,5 +17,7 @@ public class BinaryToDecimal {
 			dec = dec+rem *(int) Math.pow(2, i++);
 		}
 		System.out.println("Decimal value of "+num+" is: "+dec);
+		
+		in.close();
 	}
 }
