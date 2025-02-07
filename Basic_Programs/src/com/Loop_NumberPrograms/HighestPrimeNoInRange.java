@@ -17,6 +17,7 @@ public class HighestPrimeNoInRange {
 				break;
 			}
 		}
+		sc.close();
 	}
 	
 	//prime no check
