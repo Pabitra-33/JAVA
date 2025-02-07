@@ -10,18 +10,21 @@ class A {
 }
 
 class B extends A {
+	//method
    public void print_B() { 
 	   System.out.println("Class B"); 
 	}
 }
 
 class C extends A {
+	//method
    public void print_C() { 
 	  System.out.println("Class C");
    }
 }
 
 class D extends A {
+	//method
    public void print_D() { 
 	  System.out.println("Class D"); 
    }
