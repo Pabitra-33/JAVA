@@ -21,6 +21,7 @@ public class DigitsSumTillSingleDigit {
 				sum = 0;
 			}
 		}
+		sc.close();
 	}
 
 }
