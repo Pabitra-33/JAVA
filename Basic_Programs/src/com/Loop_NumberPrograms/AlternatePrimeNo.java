@@ -21,6 +21,7 @@ public class AlternatePrimeNo {
 					System.out.println(i+" ");
 			}
 		}
+		sc.close();
 	}
 			
 	public static boolean isPrime(int n)
