@@ -28,5 +28,5 @@ public class AutomorphicNo {
 		else {
 			System.out.println(temp+" is not a Automorphic Number");
 		}
-	}
+		sc.close();	}
 }
