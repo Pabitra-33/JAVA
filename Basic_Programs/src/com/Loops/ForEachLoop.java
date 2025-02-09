@@ -1,7 +1,5 @@
 package com.Loops;
 
-import java.util.Scanner;
-
 public class ForEachLoop {
 
 	public static void main(String[] args) {
