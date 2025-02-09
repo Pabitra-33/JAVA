@@ -24,8 +24,10 @@ public class Pattern2 {
 	public static void main(String args[])
     {
 		System.out.println("Enter a number: ");
-        int n = new Scanner(System.in).nextInt();
+		Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         //calling the printPattern function to print the pattern.
         printPattern(n);
+        sc.close();
     }
 }
