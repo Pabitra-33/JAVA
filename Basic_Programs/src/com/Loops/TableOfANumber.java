@@ -11,10 +11,12 @@ public class TableOfANumber {
 		int n = sc.nextInt();
 		
 		System.out.println("Table of a given number "+n+" is: ");
+		//using loop we iterate till a number's given range table
 		for(int i=1; i<=10; i++)
 		{ 
 			System.out.println(n+" X "+i +" = "+(n*i));
 		}
+		sc.close();
 	}
 
 }
