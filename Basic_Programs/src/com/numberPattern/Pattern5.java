@@ -12,6 +12,7 @@ public class Pattern5 {
 				System.out.print(i+" ");  
 			}  
 			System.out.println();  
-		}           
+		}  
+		sc.close();//closing the scanner reference connection	
 	}  
 }
