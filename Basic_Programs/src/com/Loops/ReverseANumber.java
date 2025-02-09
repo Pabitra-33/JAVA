@@ -20,6 +20,7 @@ public class ReverseANumber {
 		}
 		
 		System.out.println("Reverse of "+temp+" is: "+reverse);
+		sc.close();//closing scanner connection
 	}
 
 }
