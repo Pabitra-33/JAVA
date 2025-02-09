@@ -13,6 +13,10 @@ public class NumberRepeatationFromRange {
 				System.out.print(j+" ");  
 			}  
 			System.out.println();  
-		}           
+		}
+		sc.close();
 	}
 }
+/*output: 1 
+          2 1 
+          3 2 1 */
