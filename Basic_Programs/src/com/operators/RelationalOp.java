@@ -11,7 +11,7 @@ public class RelationalOp {
 		System.out.println(10 <= 30);//true
 		System.out.println(10 > 10);//false
 		System.out.println(10 == 20);//false
-		System.out.println(10 != 10);//false
+		System.out.println(12 != 10);//false
 	}
 
 }
