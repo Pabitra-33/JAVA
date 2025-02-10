@@ -16,6 +16,7 @@ public class ArmstrongNoInRangeRec {
             int sum = isArmstrong(i,count);
             if(sum == i) System.out.println(i+" ");
         }
+        s.close();//closed the connection
     }
 
     public static int isArmstrong(int n, int count){
