@@ -18,8 +18,8 @@ public class SnakePattern {
 					x++;
 				}
 			}
+			//for even lines
 			else {
-				//for even lines
 				int y = i*n;
 				for(int j=1; j<=n; j++) {
 					System.out.print(y+"\t");
@@ -29,5 +29,6 @@ public class SnakePattern {
 			//adds a new line
 			System.out.println();
 		}
+		sc.close();//close the reference connection
 	}
 }
