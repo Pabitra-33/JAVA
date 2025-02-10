@@ -13,7 +13,7 @@ public class TernaryOp {
 		int y = sc.nextInt();//second number
 		int max;//to store the maximum
 		
-		max = x > y ? x : y;
+		max = x > y ? x : y;//ternary operator used to calculate the big
 		System.out.println("Maximum number between "+x+" and "+y+" is: "+max);
 		sc.close();//closed the scanner reference
 	}
