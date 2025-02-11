@@ -19,6 +19,7 @@ public class HighestArmstrongNoInRangeRec {
             	break;
             }
         }
+        s.close();//closing the scanner reference
     }
 
     public static int isArmstrong(int n, int count){
