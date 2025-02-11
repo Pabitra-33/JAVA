@@ -11,6 +11,7 @@ public class HighestThreePrimeInRange {
 		int end = sc.nextInt();
 		System.out.print("Highest Prime Number between "+st+" to "+end+" is: ");
 		range(st, end, 0);
+		sc.close();//closed the reference
 	}
 	
 	public static void range(int start, int end, int count) {
