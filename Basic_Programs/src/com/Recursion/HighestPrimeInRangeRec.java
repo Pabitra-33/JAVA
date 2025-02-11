@@ -12,6 +12,7 @@ public class HighestPrimeInRangeRec {
 		int end = sc.nextInt();
 		System.out.print("Highest Prime Number between "+st+" to "+end+" is: ");
 		range(st, end);
+		sc.close();
 	}
 	
 	public static void range(int start, int end) {
