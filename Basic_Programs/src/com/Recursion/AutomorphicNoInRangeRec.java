@@ -16,12 +16,12 @@ public class AutomorphicNoInRangeRec {
 				System.out.println(i+" ");
 			}
 		}
+		sc.close();
 	}
 	
 	public static boolean isAutomorphic(int num)
 	{
 		int sqr = num*num;
-		boolean flag = true;
 		while(num > 0) {
 			if(num%10 != sqr%10) 
 			{
