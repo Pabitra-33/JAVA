@@ -15,6 +15,7 @@ public class EvenAndOddUsingRec {
 		System.out.println();
 		System.out.println("Odd numbers between "+st+" to "+end+" are: ");
 		rangeOdd(st, end);
+		sc.close();//close the scanner reference connection
 	}
 	
 	//to print even numbers
