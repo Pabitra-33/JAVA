@@ -16,11 +16,12 @@ public class AutomorphicCheckRec {
 		else {
 			System.out.println(n+" is not an Automorphic Number");
 		}
+		sc.close();
 	}
 	
 	public static boolean isAutomorphic(int num,int sqr)
 	{
-		boolean flag = true;
+//		boolean flag = true;
 		while(num > 0) {
 			if(num%10 != sqr%10) 
 			{
