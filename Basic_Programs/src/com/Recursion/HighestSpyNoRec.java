@@ -17,6 +17,7 @@ public class HighestSpyNoRec {
 				break;
 			}
 		}
+		sc.close();
 	}
 	
 	public static boolean isSpy(int n, int sum, int prod)
