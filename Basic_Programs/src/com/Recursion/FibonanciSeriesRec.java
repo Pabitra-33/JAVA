@@ -9,6 +9,7 @@ public class FibonanciSeriesRec {
 		System.out.println("Enter a number till you want to print fibonanci series: ");
 		int n = sc.nextInt();
 		displayFibonanci(0,1,n);
+		sc.close();
 	}
 	
 	public static void displayFibonanci(int a, int b, int n) {
