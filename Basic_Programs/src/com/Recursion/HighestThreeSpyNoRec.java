@@ -19,6 +19,7 @@ public class HighestThreeSpyNoRec {
 				if(count >= 3) break;
 			}
 		}
+		sc.close();//closing the reference
 	}
 	
 	public static boolean isSpy(int n, int sum, int prod)
