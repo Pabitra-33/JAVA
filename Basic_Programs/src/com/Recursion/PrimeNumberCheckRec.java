@@ -15,6 +15,7 @@ public class PrimeNumberCheckRec {
 		else {
 			System.out.println(num+" is not a Prime Number");
 		}
+		sc.close();
 	}
 	
 	public static boolean isPrime(int n, int i) {
