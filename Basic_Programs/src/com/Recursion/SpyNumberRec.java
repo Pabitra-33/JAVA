@@ -6,13 +6,15 @@ public class SpyNumberRec {
 
 	public static void main(String[] args) {
 		System.out.println("Enter a number: ");
-		int n = new Scanner(System.in).nextInt();
-		
-		if(isSpy(n,0,1)) {
-			System.out.println(n+" is a Spy Number");
-		}
-		else {
-			System.out.println(n+" is not a Spy Number");
+		try (Scanner df = new Scanner(System.in)) {
+			int n = df.nextInt();
+			
+			if(isSpy(n,0,1)) {
+				System.out.println(n+" is a Spy Number");
+			}
+			else {
+				System.out.println(n+" is not a Spy Number");
+			}
 		}
 	}
 	
