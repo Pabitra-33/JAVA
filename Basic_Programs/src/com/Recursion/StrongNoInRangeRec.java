@@ -11,20 +11,20 @@ public class StrongNoInRangeRec {
 		int last = sc.nextInt();
 		
 		System.out.println("Strong numbers between "+first+" and "+last+" are: ");
-		for(int i= first; i<= last; i++)
-		{
+		for(int i= first; i<= last; i++){
 			int sum = isStrong(i);
 			if(sum == i) {
 				System.out.println(i+" ");
 			}
 		}
+		sc.close();
 	}
-
+	//Strong number check method
 	public static int isStrong(int num) {
 		if(num == 0) return 0;
 		return fact(num%10) + isStrong(num/10);
 	}
-
+	//calculating factorial number
 	public static int fact(int n) {
 		if(n == 0) return 1;
 		return n*fact(n-1);
