@@ -3,12 +3,13 @@ package com.Recursion;
 import java.util.Scanner;
 
 public class SingleDigitSumofNoRec {
-
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a number: ");
-		int n = sc.nextInt();
-		System.out.println("Single digit sum is :"+sumOfDigits(n));
+		//try-with resource
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Enter a number: ");
+			int n = sc.nextInt();
+			System.out.println("Single digit sum is :"+sumOfDigits(n));
+		}
 	}
 	
 	public static int sumOfDigits(int n) {
