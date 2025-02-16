@@ -5,6 +5,7 @@ public class StaticAndNonStaticTest {
 		static {
 			System.out.println("Static block-1");
 			StaticAndNonStaticTest sn = new StaticAndNonStaticTest();
+			System.out.println(sn);
 		}
 		
 		//non-static block-1
@@ -17,6 +18,7 @@ public class StaticAndNonStaticTest {
 			System.out.println("Main Starts");
 			{
 				StaticAndNonStaticTest sn = new StaticAndNonStaticTest();
+				System.out.println(sn);
 			}
 			System.out.println("Main Ends");
 		}
@@ -29,6 +31,7 @@ public class StaticAndNonStaticTest {
 		//static block-2
 		static {
 			StaticAndNonStaticTest sn = new StaticAndNonStaticTest();
+			System.out.println(sn);
 			System.out.println("Static block-2");
 		}
 }
