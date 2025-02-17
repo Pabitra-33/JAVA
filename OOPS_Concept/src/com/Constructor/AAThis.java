@@ -20,6 +20,7 @@ public class AAThis {
 	public static void main(String[] args) {
 		//creating instance of AAThis
 		AAThis a = new AAThis(10,20);
+		System.out.println(a);
 	}
 	
 }
