@@ -12,5 +12,6 @@ public class A
 		A a2 = new A();//second instance
 		A a3 = new A();//third instance
 		//when created a instance, internally constructor we are calling
+		System.out.println(a1+" ,"+a2+" ,"+a3);
 	}
 }
