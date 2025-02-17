@@ -19,8 +19,8 @@ public class Vehicle {
 		String vName = sc.next();
 		System.out.println("Enter vehicle number: ");
 		int vNum = sc.nextInt();
+		sc.close();//closing the connection
 		return new Vehicle(vName, vNum);
-		
 	}
 	
 	//main method
