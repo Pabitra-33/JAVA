@@ -28,5 +28,7 @@ public class Building {
 	public static void main(String[] args) {
 		Building b = new Building();
 		Building b1 = new Building("Josh Palace", 201);
+		System.out.println(b);
+		System.out.println(b1);
 	}
 }
