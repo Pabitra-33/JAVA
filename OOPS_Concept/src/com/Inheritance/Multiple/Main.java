@@ -14,8 +14,7 @@ class B{
 class C extends A {
     
 }
-public class Main
-{
+public class Main{
 	public static void main(String[] args) {
         C obj = new C(); // creating object of class C
         obj.execute(); // execute() method is present in both class A and B
