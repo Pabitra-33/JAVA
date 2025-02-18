@@ -20,6 +20,7 @@ class Child extends Parent1{
 public class ParentChildMultiple {
 	public static void main(String[] args) {
 		Child ch = new Child();
-		System.out.println("The value of the variable: "+ch);
+		System.out.println("The value of the f variable: "+ch.f);
+		System.out.println("The value of the i variable: "+Parent1.i);
 	}
 }
