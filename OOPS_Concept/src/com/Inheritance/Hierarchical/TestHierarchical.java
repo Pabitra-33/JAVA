@@ -1,31 +1,35 @@
 package com.Inheritance.Hierarchical;
 
-//Superclass
+//super class
 class Company {
 	void CompanyName() {
-		System.out.println("Company name is Dotnettricks.");
+		System.out.println("Company name is Jspiders.");
 	}
 }
 
-//Subclass 1
+//first sub-class
 class Employee1 extends Company {
 	void EmployeeName1() {
 		System.out.println("EmployeeName1 is Sakshi.");
+	}
 }
-}
-//Subclass 2
+
+//second sub-class
 class Employee2 extends Company {
-void EmployeeName2() {
-System.out.println("EmployeeName2 is Sourav.");
+	void EmployeeName2() {
+		System.out.println("EmployeeName2 is Sourav.");
+	}
 }
-}
+//test class(implementation class)
 public class TestHierarchical {
 	public static void main(String[] args) {
-		 Employee1 E1 = new Employee1();
-		 E1.CompanyName(); 
-		 E1.EmployeeName1(); 
-		 Employee2 E2 = new Employee2();
-		 E2.CompanyName(); 
-		 E2.EmployeeName2(); 
+		//first sub-class object created
+		Employee1 e1 = new Employee1();
+		e1.CompanyName(); 
+		e1.EmployeeName1(); 
+		//second sub-class object created
+		Employee2 e2 = new Employee2();
+		e2.CompanyName(); 
+		e2.EmployeeName2();
 	}
 }
