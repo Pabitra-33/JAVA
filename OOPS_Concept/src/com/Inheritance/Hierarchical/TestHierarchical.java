@@ -20,7 +20,7 @@ class Employee2 extends Company {
 		System.out.println("EmployeeName2 is Sourav.");
 	}
 }
-//test class(implementation class)
+//test class(implementation class) of the program
 public class TestHierarchical {
 	public static void main(String[] args) {
 		//first sub-class object created
