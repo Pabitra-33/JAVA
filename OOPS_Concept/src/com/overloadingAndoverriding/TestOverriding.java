@@ -10,13 +10,14 @@ class Animal {
 	 }
 }
 
-
+//child class
 class Dog extends Animal {
 	@Override 
     void move() // move() method from Base class is overridden
 	{ 
 		System.out.println("Dog is running.");
 	}
+	//child specific method
 	void bark() { 
 		System.out.println("Dog is barking."); 
 	}
