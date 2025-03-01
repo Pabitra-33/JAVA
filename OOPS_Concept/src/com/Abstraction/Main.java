@@ -22,8 +22,8 @@ class TVRemote extends Light {
 //Main class to demonstrate abstraction
 public class Main {
 	public static void main(String[] args) {
-		Light remote = new TVRemote();
-		remote.turnOn();   
-        remote.turnOff();  
+		Light remote = new TVRemote();//created object for the child and store in parent class
+		remote.turnOn();  
+        remote.turnOff();
     }
 }
