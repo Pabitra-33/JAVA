@@ -9,14 +9,13 @@ class Giver {
     }
     
     // With same name but with 2 double parameters
-    static double Multiply(double a, double b)
-    {
+    static double Multiply(double a, double b) {
        // Returns product of double numbers
        return a * b;
     }
 }
 
-public class TestDriverPolymorphism {
+public class TestDriverPolymorphismOverloading {
 	// Main driver method
     public static void main(String[] args) {
    
