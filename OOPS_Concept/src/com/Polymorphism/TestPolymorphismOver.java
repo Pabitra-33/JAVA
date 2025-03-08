@@ -10,14 +10,14 @@ class Parent {
 class Child1 extends Parent {
 	@Override
     void marriage() { 
-      System.out.println("Only marry to Maria"); 
+      System.out.println("Only marry to Sabitri"); 
     }
 }
 
 class Child2 extends Parent {
 	@Override
     void marriage() {
-        System.out.println("Only marry to Jahnavi");
+        System.out.println("Only marry to Bhanupriya");
     }
 }
 
