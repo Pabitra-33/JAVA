@@ -21,6 +21,19 @@ class SmartPhone extends Nokia {
 		System.out.println("📸 Camera Feature Of Smartphone");
 	}
 }
+//implementation class
 public class MobileDriver {
-
+	public static void main(String[] args) {
+		Telephone t1 = new Telephone();
+		t1.call();
+		
+		Nokia n1 = new Nokia();
+		n1.call();
+		n1.message();
+		
+		SmartPhone sm = new SmartPhone();
+		sm.call();
+		sm.message();
+		sm.camera();
+	}
 }
