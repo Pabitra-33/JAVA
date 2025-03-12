@@ -21,5 +21,12 @@ class Employee {
 	}
 }
 public class EmployeeDriver {
-	
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		employee.set_id(30);
+		employee.set_name("Raghava");
+		
+		System.out.println("Employee id: " + employee.get_Id());
+        System.out.println("Employee Name: " + employee.get_Name());
+	}
 }
