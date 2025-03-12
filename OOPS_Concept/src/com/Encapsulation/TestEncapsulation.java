@@ -3,11 +3,12 @@ package com.Encapsulation;
 class Programmer {
 	private String name;
 
- // Getter and Setter for name
-	public String getName() { 
-		return name; 
+	//Getter for name
+	public String getName() {
+		return name;
 	}
-	public void setName(String name) { 
+	//Setter for name
+	public void setName(String name) {
 		this.name = name; 
 	}
 }
