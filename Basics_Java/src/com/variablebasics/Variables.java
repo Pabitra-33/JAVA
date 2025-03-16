@@ -1,4 +1,4 @@
-package com.basics;
+package com.variablebasics;
 
 public class Variables {
  	static int j = 10;//static variable
