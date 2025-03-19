@@ -11,6 +11,7 @@ public class PrimeNumberInRange {
 		int end = sc.nextInt();
 		
 		for(int i=start; i<=end; i++) {
+			//calling the prime method to check the printing statements
 			if(isPrime(i)) {
 				System.out.println(i);
 			}
@@ -18,8 +19,7 @@ public class PrimeNumberInRange {
 		sc.close();
 	}
 	
-	public static boolean isPrime(int n)
-	{
+	public static boolean isPrime(int n) {
 		if(n <= 1) return false;
 		
 		for(int i=2; i<=n/2; i++) {
