@@ -1,4 +1,4 @@
-package com.loopsnumberprograms;
+package com.numberprograms;
 
 import java.util.Scanner;
 
@@ -10,8 +10,9 @@ public class PrimeNumberInRange {
 		System.out.println("Enter end range: ");
 		int end = sc.nextInt();
 		
+		//putting a loop to iterate from start to end range
 		for(int i=start; i<=end; i++) {
-			//calling the prime method to check the printing statements
+			//calling the prime method to check the numbers prime and printing them.
 			if(isPrime(i)) {
 				System.out.println(i);
 			}
@@ -19,6 +20,7 @@ public class PrimeNumberInRange {
 		sc.close();
 	}
 	
+	//prime check method
 	public static boolean isPrime(int n) {
 		if(n <= 1) return false;
 		
