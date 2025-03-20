@@ -1,4 +1,4 @@
-package com.loopsnumberprograms;
+package com.numberprograms;
 
 import java.util.Scanner;
 
