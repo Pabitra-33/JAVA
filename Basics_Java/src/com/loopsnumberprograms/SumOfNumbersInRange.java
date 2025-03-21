@@ -17,5 +17,6 @@ public class SumOfNumbersInRange {
  			sum += i;//adding each element to sum
  		}
  		System.out.println("Sum of numbers from "+start+" to "+end+" = "+sum);
+ 		scn.close();
  	}
 }
