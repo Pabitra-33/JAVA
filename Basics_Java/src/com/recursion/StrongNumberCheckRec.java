@@ -18,12 +18,13 @@ public class StrongNumberCheckRec {
  		sc.close();
  	}
 	
-	//strong check
+	//strong check method
 	public static int strong(int num) {
  		if(num == 0) return 0;
  		return fact(num%10) + strong(num/10);
  	}
  
+	//factorial calculation method
  	public static int fact(int n) {
  		if(n == 0) return 1;
  		return n*fact(n-1);
