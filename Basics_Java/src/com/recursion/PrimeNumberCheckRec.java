@@ -16,10 +16,11 @@ public class PrimeNumberCheckRec {
 	}
 	
 	public static boolean isPrime(int n, int i) {
-		if(n <= 1 || n%i == 0)
-			return false;
 		if(i == 1) 
 			return true;
+		
+		if(n <= 1 || n%i == 0)
+			return false;
 		
 		return isPrime(n, i-1);
 	}
