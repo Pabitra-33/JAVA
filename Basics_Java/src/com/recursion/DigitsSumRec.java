@@ -12,8 +12,8 @@ public class DigitsSumRec {
  		sc.close();
  	}
  	
- 	public static int sum(int no) {
- 		if(no <= 9) return no;
- 		return (no%10)+sum(no/10);
+ 	public static int sum(int num) {
+ 		if(num <= 9) return num;
+ 		return (num % 10) + sum(num / 10);
  	}
 }
