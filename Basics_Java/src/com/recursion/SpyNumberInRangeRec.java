@@ -16,9 +16,10 @@ public class SpyNumberInRangeRec {
  				System.out.println(i+" ");
  			}
  		}
- 		sc.close();
+ 		sc.close();//close the connection
  	}
  	
+	//check spy number or not
  	public static boolean isSpy(int n, int sum, int prod) {
  		if(n==0) {
  			if(sum == prod) return true;
