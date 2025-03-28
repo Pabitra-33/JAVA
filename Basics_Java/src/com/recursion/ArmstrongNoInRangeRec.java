@@ -10,8 +10,7 @@ public class ArmstrongNoInRangeRec {
         System.out.println("Enter last number: ");
         int last = scn.nextInt();
         
-        for(int i=first; i<=last; i++)
-        {
+        for(int i=first; i<=last; i++){
         	int count = count(i);
             int sum = isArmstrong(i,count);
             if(sum == i) System.out.println(i+" ");
