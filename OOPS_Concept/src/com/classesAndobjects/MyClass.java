@@ -1,4 +1,4 @@
-package com.classes;
+package com.classesAndobjects;
 
 //created my class
 public class MyClass {

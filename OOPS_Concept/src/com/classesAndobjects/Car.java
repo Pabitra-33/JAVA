@@ -1,4 +1,4 @@
-package com.classes;
+package com.classesAndobjects;
 
 public class Car {
 	// private data members
