@@ -16,6 +16,6 @@ public class TestInterface {
 		//Int i = new Int();//CTE
 		Int i1 = new A();
 		i1.m1();//m1() in A class
-		System.out.println("Variable i: "+Int.i);
+		System.out.println("Variable i: "+Int.i);//accessing the static variable of the interface
 	}
 }
