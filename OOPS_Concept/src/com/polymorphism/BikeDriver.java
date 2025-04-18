@@ -6,7 +6,8 @@ class Bike{
 	}    
 }    
 
-class Splendor extends Bike{    
+class Splendor extends Bike{   
+	@Override
 	void run(){
 		System.out.println("Our Splendor running safely with 60km");
 	}    
@@ -14,7 +15,7 @@ class Splendor extends Bike{
 	
 public class BikeDriver{  
 	public static void main(String args[]){    
-	    Bike b = new Splendor();//upcasting    
+	    Bike b = new Splendor();//Up casting    
 	    b.run();    
 	}    
 }    
