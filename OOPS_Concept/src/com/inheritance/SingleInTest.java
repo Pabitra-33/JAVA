@@ -18,8 +18,8 @@ class Two extends One {
 public class SingleInTest {
 	// Main function
 	public static void main(String[] args) {
-     Two two = new Two();//creating object for child class
-     two.print_Parent();//inherited method
-     two.print_Child();//own method
- }
+		Two two = new Two();//creating object for child class
+        two.print_Parent();//inherited method
+        two.print_Child();//own method
+    }
 }
