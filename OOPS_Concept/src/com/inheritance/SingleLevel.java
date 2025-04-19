@@ -1,9 +1,10 @@
 package com.inheritance;
-
+//parent or super or base class
 class Parent {
 	String pProperty = "House";
 }
 
+//child or sub or derived class
 class Child extends Parent {
 	String cProperty = "Bike";
 }
