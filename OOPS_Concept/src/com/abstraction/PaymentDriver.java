@@ -31,13 +31,16 @@ class NetBanking implements Payable {
 
 class Payment {
 	public static Payable getInst() {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("1. UPI\n2.Credit Card\n3.Net Banking");
-		int n = sc.nextInt();
-		if(n == 1) return new UPI();
-		else if(n == 2) return new CreditCard();
-		else if(n == 3) return new NetBanking();
-		else return null;
+		//for closing the scanner connection internally, we are using try-with resource
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("1. UPI\n2.Credit Card\n3.Net Banking");
+			int n = sc.nextInt();
+			if(n == 1) return new UPI();
+			else if(n == 2) return new CreditCard();
+			else if(n == 3) return new NetBanking();
+			else return null;
+		}
+		
 	}
 }
 public class PaymentDriver {
