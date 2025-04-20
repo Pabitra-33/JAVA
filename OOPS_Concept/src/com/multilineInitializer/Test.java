@@ -10,6 +10,7 @@ public class Test {
 		System.out.println("Main Starts");
 	 	Test t1 = new Test();//for each new object created the non-static block will execute.
 	 	Test t2 = new Test();
+	 	System.out.println(t1+" "+t2);
 	 	System.out.println("Main Ends");
 	 }
 	
