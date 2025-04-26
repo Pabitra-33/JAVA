@@ -9,10 +9,10 @@ public class ParseDemoTest {
         String booleanString = "true";
         String dateString = "2023-10-27";
 
-        int intValue = Integer.parseInt(intString);
-        double doubleValue = Double.parseDouble(doubleString);
-        boolean booleanValue = Boolean.parseBoolean(booleanString);
-        LocalDate dateValue = LocalDate.parse(dateString);
+        int intValue = Integer.parseInt(intString);//string type to integer type
+        double doubleValue = Double.parseDouble(doubleString);//string type to double type
+        boolean booleanValue = Boolean.parseBoolean(booleanString);//string type to boolean type
+        LocalDate dateValue = LocalDate.parse(dateString);//string type to date type
 
         System.out.println("Integer value: " + intValue);
         System.out.println("Double value: " + doubleValue);
