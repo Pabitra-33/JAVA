@@ -35,6 +35,7 @@ public class Employee implements Cloneable {
 	
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-		return super.clone();//calling the parent class clone method, by using super keyword
+		//calling the superclass clone() method i.e. Object clone() method.
+		return super.clone();
 	}
 }
