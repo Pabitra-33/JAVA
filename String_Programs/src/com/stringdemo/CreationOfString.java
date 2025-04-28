@@ -1,4 +1,4 @@
-package com.stringmethods;
+package com.stringdemo;
 
 public class CreationOfString {
 	public static void main(String[] args) {
