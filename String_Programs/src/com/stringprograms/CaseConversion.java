@@ -1,4 +1,4 @@
-package com.sreingprograms;
+package com.stringprograms;
 
 public class CaseConversion {
 	public static void main(String[] args) {
