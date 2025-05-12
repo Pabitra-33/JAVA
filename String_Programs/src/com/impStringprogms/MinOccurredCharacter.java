@@ -10,7 +10,7 @@ public class MinOccurredCharacter {
 		
 		char[] ch = s.toCharArray();//converting to character array
 		int minCount = s.length();
-		char minChar = '\u0000'; //or: ' '- empty character
+		char minChar = '\u0000'; //or: ' '- empty character, default value of character
 		
 		for(int i=0; i<ch.length; i++) {
 			int count = 1;
@@ -21,6 +21,7 @@ public class MinOccurredCharacter {
 				    ch[j] = '\u0000';
 			    }
 			}
+			//if the count is less than the mincount then assign to it
 			if(count < minCount) {
 				minCount = count;
 				minChar = ch[i];
