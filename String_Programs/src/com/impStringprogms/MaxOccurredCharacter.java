@@ -10,7 +10,7 @@ public class MaxOccurredCharacter {
 		
 		char[] ch = s.toCharArray();//converting to character array
 		int maxCount = 0;
-		char maxChar = '\u0000'; //or: ' '- empty character
+		char maxChar = '\u0000'; //or: ' '- empty character, default value of character
 		
 		for(int i=0; i<ch.length; i++) {
 			int count = 1;
