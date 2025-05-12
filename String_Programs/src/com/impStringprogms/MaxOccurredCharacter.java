@@ -21,6 +21,7 @@ public class MaxOccurredCharacter {
 				    ch[j] = '\u0000';
 			    }
 			}
+			//if the count is greater than maxcount, then assign to it
 			if(count > maxCount) {
 				maxCount = count;
 				maxChar = ch[i];
