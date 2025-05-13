@@ -17,6 +17,7 @@ public class SmallestSubStringPallindrome {
 		System.out.println("Smallest subString Pallindrome is: "+minStr);
 	}
 	
+	//check for string pallindrome
 	public static boolean isPallindrome(String s) {
 		int i=0;
 		int j = s.length()-1;
