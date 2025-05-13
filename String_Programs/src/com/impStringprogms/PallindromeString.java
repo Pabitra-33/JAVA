@@ -17,6 +17,7 @@ public class PallindromeString {
 		scanner.close();
 	}
 
+	//check for string pallindrome
 	private static boolean isPallindrome(String str) {
 		int i = 0;
 		int j = str.length()-1;
