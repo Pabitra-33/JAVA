@@ -20,6 +20,7 @@ public class BiggestSubStringPallindrome {
 		System.out.println("Biggest Substring pallindrome is: "+maxStr);//output: alayala
 	}
 	
+	//check for string pallindrome
 	public static boolean isPallindrome(String str) {
 		int i = 0;
 		int j = str.length()-1;
