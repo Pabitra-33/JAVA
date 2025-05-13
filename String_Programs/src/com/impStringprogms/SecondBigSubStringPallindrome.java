@@ -23,6 +23,7 @@ public class SecondBigSubStringPallindrome {
 		System.out.println("Second biggest substring pallindrome is: "+secMax);
 	}
 
+	//check for string pallindrome
 	private static boolean isPallindrome(String s) {
 		int i = 0;
 		int j = s.length()-1;
