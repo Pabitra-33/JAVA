@@ -17,7 +17,7 @@ public class SplitStringWordsPrint {
 				word = "";// reset for next word
 			}
 		}
-		
+		//if the word is not empty, then empty
 		if(!word.isEmpty()) {
 			System.out.println(word);
 		}
