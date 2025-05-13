@@ -14,7 +14,7 @@ public class StringInitCap {
 		for(int i =0; i<ch.length; i++) {
 			if(ch[i] > 'a' && ch[i] < 'z') {
 				//if the character is the first letter of the String
-				//then convert it to Uppercase letter
+				//then convert it to uppercase letter
 				if(i == 0 || ch[i-1] ==' ') {
 					ch[i] -= 32;//making that lowercase letter to uppercase
 				}
