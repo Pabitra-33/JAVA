@@ -14,7 +14,7 @@ public class SwapStringWords {
         // Step 3: Extract original s2 from combined string and assign to s1
         s1 = s1.substring(s2.length()); // s1 = "Sita"
 
-        System.out.println("s1 = " + s1);
-        System.out.println("s2 = " + s2);
+        System.out.println("s1 = " + s1);//Sita
+        System.out.println("s2 = " + s2);//Ram
 	}
 }
