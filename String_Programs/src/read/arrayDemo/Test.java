@@ -1,4 +1,4 @@
-package main.arrayDemo;
+package read.arrayDemo;
 
 public class Test {
 	public static void main(String[] args) {

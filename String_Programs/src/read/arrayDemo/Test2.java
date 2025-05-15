@@ -1,4 +1,4 @@
-package main.arrayDemo;
+package read.arrayDemo;
 
 import java.util.Arrays;
 
