@@ -3,14 +3,14 @@ package read.arraysSearching;
 public class BinarySearching {
 	public static void main(String[] args) {
 		int[] a = {3,5,7,9,10,12};
-		int index = Search(a, 12);//5
+		int index = search(a, 12);//5
 		if(index == -1) 
 			System.out.println("Element not found in the array");
 		else 
 			System.out.println("Element found in the array at index: "+ index);
 	}
 
-	private static int Search(int[] a, int key) {
+	private static int search(int[] a, int key) {
 		int start = 0;//starting as first element
 		int end = a.length-1;//last element as end
 		
