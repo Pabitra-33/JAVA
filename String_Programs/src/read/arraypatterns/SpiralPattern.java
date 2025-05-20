@@ -10,8 +10,8 @@ public class SpiralPattern {
 			System.out.println();
 		}
 	}
-	static int[][] Spiral(int size)
-	{
+	
+	public static int[][] Spiral(int size) {
 		int[][] a = new int[size][size];
 		
 		int row = 0, col = -1;
