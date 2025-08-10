@@ -21,9 +21,14 @@ public class ArrayListImplementation {
 		arr = temp;
 	}
 	
+	//count of elements method
+	private int size() {
+		return count;
+	}
+	
 	//add method with index wise
 	public void add(Object e, int index) {
-		if(index <= -1 || index > size())
+		if(index <= -1 || index >= size())
 			throw new ArrayIndexOutOfBoundsException();
 		
 		if(count > arr.length)
@@ -32,9 +37,12 @@ public class ArrayListImplementation {
 			arr[i] = arr[i-1];
 		}
 	}
-
-	//count of elements method
-	private int size() {
-		return count;
+	
+	//get the object method
+	public Object get(int index) {
+		if(index <= -1 || index >= size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		return arr[index];
 	}
 }
