@@ -22,7 +22,7 @@ public class ArrayListImplementation {
 	}
 	
 	//count of elements method
-	private int size() {
+	public int size() {
 		return count;
 	}
 	
