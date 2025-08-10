@@ -18,7 +18,7 @@ public class ArrayListImplementation {
 		for(int i=0; i<arr.length; i++) {
 			temp[i] = arr[i];//copying all the elements from the array to temporary array
 		}
-		arr = temp;
+		arr = temp;//again changing the temporary array name to arr
 	}
 	
 	//count of elements method
@@ -35,7 +35,7 @@ public class ArrayListImplementation {
 			increase();//calling increase method for full of array list
 		
 		for(int i=size()-1;i>=index;i--) {
-			arr[i] = arr[i-1];
+			arr[i+1] = arr[i];//storing the previous element in the next box to make it empty
 		}
 	}
 	
