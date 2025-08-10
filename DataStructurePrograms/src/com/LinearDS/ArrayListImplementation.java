@@ -45,4 +45,19 @@ public class ArrayListImplementation {
 		}
 		return arr[index];
 	}
+	
+	
+	//removing element from an array list by index number
+	public void remove(int index) {
+		if(index <= -1 || index >= size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		
+		//traverse till the index next element
+		for(int i=index+1; i<=size(); i++) {
+			arr[i-1] = arr[i];
+		}
+		count--;
+		arr[count] = null;
+	}
 }
