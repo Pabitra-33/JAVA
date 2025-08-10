@@ -1,14 +1,14 @@
 package com.LinearDS;
 
 public class ArrayListImplementation {
-	Object[] arr = new Object[5];
-	int count = 0;
+	private Object[] arr = new Object[5];
+	private int count = 0;
 	
 	// add method
 	public void add(Object ele) {
-		if(count > arr.length)
+		if(count >= arr.length)
 			increase();
-		arr[count] = ele;
+		arr[count] = ele; //or arr[count++] = ele;
 		count++; //added a element, so increase count.
 	}
 
@@ -31,8 +31,9 @@ public class ArrayListImplementation {
 		if(index <= -1 || index >= size())
 			throw new ArrayIndexOutOfBoundsException();
 		
-		if(count > arr.length)
-			increase();
+		if(count >= arr.length)
+			increase();//calling increase method for full of array list
+		
 		for(int i=size()-1;i>=index;i--) {
 			arr[i] = arr[i-1];
 		}
