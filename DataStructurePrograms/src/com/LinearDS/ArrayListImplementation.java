@@ -55,7 +55,7 @@ public class ArrayListImplementation {
 		}
 		
 		//traverse till the index next element
-		for(int i=index+1; i<=size(); i++) {
+		for(int i=index+1; i<size(); i++) {
 			arr[i-1] = arr[i];
 		}
 		count--;
