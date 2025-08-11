@@ -10,7 +10,7 @@ public class LinkedListImplementation {
 		//if the first is null then create a new node and assign to it
 		if(first == null) {
 			first = new Node(ele, null);
-			count++;//increasing count as we added a node
+			count++;//increasing count as we added a node.
 			return;
 		}
 		
@@ -22,5 +22,10 @@ public class LinkedListImplementation {
 		
 		curr.next = new Node(ele, null);//storing the new node in the curr.next position to make a chain
 		count++;
+	}
+	
+	//size method
+	public int size() {
+		return count;
 	}
 }
