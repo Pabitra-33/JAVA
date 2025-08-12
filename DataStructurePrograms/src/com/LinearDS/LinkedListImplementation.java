@@ -28,4 +28,27 @@ public class LinkedListImplementation {
 	public int size() {
 		return count;
 	}
+	
+	//adding element in the first or in between
+	public void add(Object ele, int index) {
+		if(index <= -1 || index >= size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		
+		//adding a new node on the 0th index
+		if(index == 0) {
+			first = new Node(ele, first);
+			count++;
+			return;
+		}
+		
+		//adding a node in between the linked list
+		Node curr = first;
+		for(int i =1; i<index; i++) {
+			curr = curr.next;//traversing till that previous position to add
+		}
+		curr.next = new Node(ele, curr.next);
+		count++;
+	}
+	
 }
