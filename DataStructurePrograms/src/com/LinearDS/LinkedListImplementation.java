@@ -65,4 +65,26 @@ public class LinkedListImplementation {
 		return curr.element;
 	}
 	
+	//removing a node element from a linked list
+	public void remove(int index) {
+		if(index <=-1 || index >= size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		
+		//removing the first element
+		if(index == 0) {
+			first = first.next;//pointing to next element
+			count--;
+			return;
+		}
+		
+		Node curr = first;
+		for(int i=1; i<index; i++) {
+			curr = curr.next;//traversing till the index-1 position
+		}
+		
+		curr.next = curr.next.next;
+		count--;//decreasing the count value by -1
+	}
+	
 }
