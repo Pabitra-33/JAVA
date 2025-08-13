@@ -51,4 +51,18 @@ public class LinkedListImplementation {
 		count++;
 	}
 	
+	//getting the node element from the linked list
+	public Object get(int index) {
+		if(index <= -1 || index >= size()) {
+			throw new IndexOutOfBoundsException();
+		}
+		
+		Node curr = first;
+		
+		for(int i=1; i<=index; i++) {
+			curr = curr.next;
+		}
+		return curr.element;
+	}
+	
 }
