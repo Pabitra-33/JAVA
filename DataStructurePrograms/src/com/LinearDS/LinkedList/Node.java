@@ -1,4 +1,4 @@
-package com.LinearDS;
+package com.LinearDS.LinkedList;
 
 //for creation of nodes we have taken a Node Class
 public class Node {
