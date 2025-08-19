@@ -21,4 +21,9 @@ public class DoubleLinkedListImpl {
 		curr.next = new Node(e, curr, null);
 		count++;
 	}
+	
+	//size method
+	public int size() {
+		return count;
+	}
 }
