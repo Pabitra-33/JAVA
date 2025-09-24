@@ -1,4 +1,4 @@
-package com.LinearDS;
+package com.LinearDS.LinkedList;
 
 //to provide implementation taken a implementation class
 public class LinkedListImplementation {

@@ -1,4 +1,4 @@
-package com.LinearDS;
+package com.LinearDS.ArrayList;
 
 public class TestArrayList {
 	public static void main(String[] args) {

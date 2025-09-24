@@ -1,4 +1,4 @@
-package com.LinearDS;
+package com.LinearDS.ArrayList;
 
 public class ArrayListImplementation {
 	private Object[] arr = new Object[5];
