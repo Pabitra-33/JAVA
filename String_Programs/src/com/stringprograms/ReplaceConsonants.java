@@ -11,7 +11,7 @@ public class ReplaceConsonants {
 		int count = 0;
 		
 		for(int i=0; i<ch.length; i++) {
-			if(!s.contains(ch+"")) count++;
+			if(!s.contains(ch[i]+"")) count++;
 		}
 		
 		if(count >= 3) {
