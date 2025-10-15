@@ -1,11 +1,16 @@
 package com.StringInterviewPrograms;
 
+import java.util.Scanner;
+
 public class VowelsAndConsonantCounts {
 	public static void main(String[] args) {
-		//Given String
-		String str = "Shyama Ki Jay";
-		str = str.toLowerCase();//converting to lower case
+		//created the object to take input
+		Scanner sc = new Scanner(System.in);
 		
+		// String str = "Shyama Ki Jay";
+		
+		String str = sc.nextLine();
+		str = str.toLowerCase();
 		int vowelCount = 0;
 		int consonantCount = 0;
 		
@@ -23,5 +28,6 @@ public class VowelsAndConsonantCounts {
 		}
 		System.out.println("Vowel Counts is: "+vowelCount);
 		System.out.println("Consonant Counts is: "+consonantCount);
+		sc.close();
 	}
 }
