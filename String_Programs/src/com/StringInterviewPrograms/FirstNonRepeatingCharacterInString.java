@@ -1,4 +1,4 @@
-package com.InterviewPrograms;
+package com.StringInterviewPrograms;
 
 import java.util.HashMap;
 import java.util.Map;

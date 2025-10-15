@@ -1,4 +1,4 @@
-package com.InterviewPrograms;
+package com.StringInterviewPrograms;
 
 public class ReverseString {
 	public static void main(String[] args) {

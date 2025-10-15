@@ -1,4 +1,4 @@
-package com.InterviewPrograms;
+package com.ArrayInterviewPrograms;
 
 public class MissingNumberInArray {
 	public static void main(String[] args) {

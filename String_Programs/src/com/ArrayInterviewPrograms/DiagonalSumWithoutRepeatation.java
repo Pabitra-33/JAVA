@@ -1,4 +1,4 @@
-package com.InterviewPrograms;
+package com.ArrayInterviewPrograms;
 
 //not adding the middle element two times
 public class DiagonalSumWithoutRepeatation {
