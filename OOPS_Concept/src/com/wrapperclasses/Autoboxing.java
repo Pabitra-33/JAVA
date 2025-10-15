@@ -8,7 +8,8 @@ public class Autoboxing {
         char ch = 'a';
 
         // Autoboxing- primitive to Character object conversion
-        Character a = ch;
+        @SuppressWarnings("unused")
+		Character a = ch;
 
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
 
