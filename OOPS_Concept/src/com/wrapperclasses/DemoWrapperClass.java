@@ -4,11 +4,13 @@ public class DemoWrapperClass {
 	public static void main(String[] args) {
 		//Auto-boxing
 		int a = 10;
+		@SuppressWarnings("removal")
 		Integer b = new Integer(a);//implicit type
 		System.out.println("Primitive: "+a);//10
 		System.out.println("Non-Primitive: "+b);//10
 		
 		//Auto-boxing (before 1.5v)
+		@SuppressWarnings("unused")
 		int c = 20;
 		//Integer d = new Integer.valueOf(c;)//explicit type
 		
