@@ -9,20 +9,20 @@ public class BinarySearchRecursion {
 		System.out.println(search(a, 2, 0, a.length-1));//-1(Element not found)
 	}
 
-	private static int search(int[] arr, int key, int start, int end) {
+	private static int search(int[] arr, int target, int start, int end) {
 		if(start > end) 
 			return -1;
 		
 		//find the mid
 		int mid = (start+end)/2;
-		if(key == arr[mid]) {
+		if(target == arr[mid]) {
 			return mid;
 		}
-		else if(key < arr[mid]) {
-			return search(arr, key, start, mid-1);
+		else if(target < arr[mid]) {
+			return search(arr, target, start, mid-1);
 		}
-		else if(key > arr[mid]) {
-			return search(arr, key, mid+1, end);
+		else if(target > arr[mid]) {
+			return search(arr, target, mid+1, end);
 		}
 		return mid;
 	}
