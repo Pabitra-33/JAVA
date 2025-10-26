@@ -11,7 +11,7 @@ public class TwoSum {
 		int target = 8;
 		
 		int[] res = findTwoSum(arr, target);
-		//System.out.println(Arrays.toString(res));
+
 		System.out.println("Two sum index are: "+res[0]+","+res[1]);
 	}
 	
@@ -27,6 +27,6 @@ public class TwoSum {
 			}
 			map.put(nums[i], i);
 		}
-		return new int[] {};//when not two sum
+		return new int[]{};//when not two sum
 	}
 }
