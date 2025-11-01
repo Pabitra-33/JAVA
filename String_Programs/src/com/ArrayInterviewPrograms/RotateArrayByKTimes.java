@@ -17,7 +17,24 @@ public class RotateArrayByKTimes {
 		scanner.close();//closing the scanner object
 	}
 
+	//for rotation
 	private static void rotate(int[] arr, int k) {
-		
+		//if we give 'k' greater than the array length it will not work
+		k = k % arr.length;
+		reverse(arr, 0, arr.length-1);//reverse full array
+		reverse(arr, 0, k-1);//reverse till k-1 times
+		reverse(arr, k, arr.length-1);//then reverse from k to last element in array
+	}
+	
+	//for reversing
+	public static void reverse(int[] arr, int start, int end) {
+		while(start < end) {
+			//just simple swapping method
+			int temp = arr[start];
+			arr[start] = arr[end];
+			arr[end] = temp;
+			start++;
+			end--;
+		}
 	}
 }
