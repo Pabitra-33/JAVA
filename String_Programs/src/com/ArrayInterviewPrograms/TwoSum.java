@@ -20,8 +20,9 @@ public class TwoSum {
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		
 		for(int i=0; i<nums.length; i++) {
-			int complement = target - nums[i];
+			int complement = target - nums[i];//finding the complement, and if it is present then we will get the target
 			
+			//checking for the complement number in the map
 			if(map.containsKey(complement)) {
 				return new int[] {map.get(complement), i};
 			}
