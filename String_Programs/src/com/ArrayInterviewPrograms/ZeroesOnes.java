@@ -9,9 +9,11 @@ public class ZeroesOnes {
         int[] arr = {1,1,0,1,0,1,0,0};
         System.out.println("Before Sorting: " + Arrays.toString(arr));
 
+        //using the two pointer approach
         int i = 0;
         int j = arr.length - 1;
 
+        //until the condition satisfies run
         while (i < j) {
             while (arr[i] == 0 && i < j) i++;
             while (arr[j] == 1 && i < j) j--;
