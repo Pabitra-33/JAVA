@@ -3,7 +3,7 @@ package com.StringInterviewPrograms;
 public class StringCompressor {
 	public static void main(String[] args) {
 		String str = "aaabbcdd";
-		System.out.println(compressString(str));
+		System.out.println(compressString(str)); //Output: a3b2c1d2
 	}
 
 	// string compress method
