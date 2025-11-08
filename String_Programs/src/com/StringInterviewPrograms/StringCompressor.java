@@ -3,7 +3,17 @@ package com.StringInterviewPrograms;
 public class StringCompressor {
 	public static void main(String[] args) {
 		String str = "aaabbcdd";
-		System.out.println(compressString(str)); //Output: a3b2c1d2
+		
+		//just adding a new condition
+		//if the compressed string is greater than the original string then,
+		//return the original string else return the compressed string
+		String compressed = compressString(str);
+		if(compressed.length() > str.length()) {
+			System.out.println("Original String: "+str);
+		}else {
+			System.out.println("Compressed String: "+compressed);
+		}
+//		System.out.println(compressString(str)); //Output: a3b2c1d2
 	}
 
 	// string compress method
