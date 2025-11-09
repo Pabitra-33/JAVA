@@ -1,6 +1,6 @@
 package com.fiftyArrayPrograms;
 
-public class ReverseCharArray {
+public class ReverseCharArray1 {
 	public static void main(String[] args) {
 		//Declaring and initializing a character array
 		char[] letters = {'j','a','v','a',' ','i','s',' ','f','u','n'};
