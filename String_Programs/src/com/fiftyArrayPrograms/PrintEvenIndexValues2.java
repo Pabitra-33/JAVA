@@ -9,6 +9,7 @@ public class PrintEvenIndexValues2 {
 		
 		//iterating through the array by loops and finding the element at even index
 		for (int i = 0; i < arr.length; i++) {
+			//if it's divisible by 2 then it's even
 			if(i % 2 == 0) {
 				System.out.print(arr[i]+" ");
 			}
