@@ -12,7 +12,7 @@ public class ReplaceVowelWithNextConsonants {
 		for(String word : words) {
 			char[] chars = word.toCharArray();
 			
-			for(int i=0; i<chars.length; i++) {
+			for(int i=0; i<chars.length-1; i++) {
 				char ch=chars[i];
 				
 				if("aeiou".contains(ch+"")) {
@@ -23,6 +23,7 @@ public class ReplaceVowelWithNextConsonants {
 				}
 				result.append(chars[i]);
 			}
+			result.append(" ");
 		}
 		System.out.println(result);
 	}
