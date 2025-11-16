@@ -10,10 +10,9 @@ public class ConsonantsInArray12I {
 
 		// Loop through array to check consonants
 		for (int i = 0; i < letters.length; i++) {
+			char ch = letters[i];//taking the first letter
 
-			char ch = letters[i];
-
-			// Check if alphabet
+			// Check the first letter is a alphabet or not
 			if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
 
 				// Check if NOT a vowel → means consonant
