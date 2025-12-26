@@ -3,7 +3,7 @@ package com.fiftyArrayPrograms;
 public class CountOccurrences16 {
 	public static void main(String[] args) {
 
-        int[] arr = {1, 2, 1, 3, 2, 4};
+        int[] arr = {1, 2, 1, 3, 2, 4};//given array
         boolean[] visited = new boolean[arr.length]; // to avoid recounting
 
         for (int i = 0; i < arr.length; i++) {
