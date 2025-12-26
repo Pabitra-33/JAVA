@@ -1,11 +1,14 @@
 package com.fiftyArrayPrograms;
 
 public class MaxOccurredElement17 {
+	//main method
 	public static void main(String[] args) {
 
+		//given array
         int[] arr = {1, 2, 1, 3, 1, 4};
         boolean[] visited = new boolean[arr.length];
 
+        //initially taking the maxCount and maxElement as the first element
         int maxCount = 0;
         int maxElement = arr[0];
 
@@ -36,4 +39,5 @@ public class MaxOccurredElement17 {
         System.out.println("Maximum occurred element: " 
                            + maxElement + " - " + maxCount);
     }
+	//main method ends
 }
