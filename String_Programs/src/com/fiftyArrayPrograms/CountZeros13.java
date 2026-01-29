@@ -1,6 +1,7 @@
 package com.fiftyArrayPrograms;
 
 public class CountZeros13 {
+	//main method starts
 	public static void main(String[] args) {
 		// Declaring and initializing the array
 		int[] numbers = { 1, 0, 3, 0, 5, 6, 0 };
@@ -17,5 +18,5 @@ public class CountZeros13 {
 
 		// Printing the number of zeros
 		System.out.println("Number of zeros in the array: " + zeroCount);
-	}
+	}//main method ends
 }
