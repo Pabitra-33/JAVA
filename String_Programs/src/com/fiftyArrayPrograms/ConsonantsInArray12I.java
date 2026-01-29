@@ -1,6 +1,7 @@
 package com.fiftyArrayPrograms;
 
 public class ConsonantsInArray12I {
+	//main method starts
 	public static void main(String[] args) {
 
 		// Declaring and initializing the array
@@ -20,7 +21,7 @@ public class ConsonantsInArray12I {
 					&& ch != 'u' && ch != 'A' && ch != 'E' && ch != 'I'
 					&& ch != 'O' && ch != 'U') {
 
-					System.out.print(ch + " ");
+					System.out.print(ch + " ");//printing the consonants
 				}
 			}
 		}
