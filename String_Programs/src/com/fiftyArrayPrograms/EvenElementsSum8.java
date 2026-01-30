@@ -1,6 +1,7 @@
 package com.fiftyArrayPrograms;
 
 public class EvenElementsSum8 {
+	//main method
 	public static void main(String[] args) {
 		// Declaring and initializing the array
 		int[] numbers = { 1, 2, 3, 4, 5, 6 };
