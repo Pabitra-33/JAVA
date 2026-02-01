@@ -20,7 +20,7 @@ public class EvenOddIndexSum7 {
 		}
 
 		// Printing the results
-		System.out.println("Sum of even index values: " + evenIndexSum);
-		System.out.println("Sum of odd index values: " + oddIndexSum);
+		System.out.println("Sum of even index values: " + evenIndexSum);//even
+		System.out.println("Sum of odd index values: " + oddIndexSum);//odd
 	}
 }
